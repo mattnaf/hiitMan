@@ -1,0 +1,15 @@
+
+App Thinning Size Report for All Variants of hiitmanStandAlone Watch App
+
+Variant: hiitmanStandAlone Watch App-D558922E-4BD7-4311-BCFE-B3F2046710D9.ipa
+Supported variant descriptors: [device: Watch6,15, os-version: 9.0], [device: Watch6,8, os-version: 9.0], [device: Watch4,3, os-version: 9.0], [device: Watch6,13, os-version: 9.0], [device: Watch5,3, os-version: 9.0], [device: Watch5,9, os-version: 9.0], [device: Watch4,2, os-version: 9.0], [device: Watch6,3, os-version: 9.0], [device: Watch5,2, os-version: 9.0], [device: Watch5,1, os-version: 9.0], [device: Watch4,4, os-version: 9.0], [device: Watch6,2, os-version: 9.0], [device: Watch6,16, os-version: 9.0], [device: Watch6,18, os-version: 9.0], [device: Watch4,1, os-version: 9.0], [device: Watch5,11, os-version: 9.0], [device: Watch6,10, os-version: 9.0], [device: Watch5,12, os-version: 9.0], [device: Watch6,4, os-version: 9.0], [device: Watch5,10, os-version: 9.0], [device: Watch6,11, os-version: 9.0], [device: Watch6,9, os-version: 9.0], [device: Watch6,1, os-version: 9.0], [device: Watch6,14, os-version: 9.0], [device: Watch6,17, os-version: 9.0], [device: Watch6,12, os-version: 9.0], [device: Watch5,4, os-version: 9.0], [device: Watch6,6, os-version: 9.0], and [device: Watch6,7, os-version: 9.0]
+App + On Demand Resources size: 65 KB compressed, 220 KB uncompressed
+App size: 65 KB compressed, 220 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: hiitmanStandAlone Watch App.ipa
+Supported variant descriptors: Universal
+App + On Demand Resources size: 121 KB compressed, 448 KB uncompressed
+App size: 121 KB compressed, 448 KB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

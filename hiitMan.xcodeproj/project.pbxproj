@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20A139B29811B0B0043B0D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A139A29811B0B0043B0D7 /* Assets.xcassets */; };
+		B21AD245292ED6520009F194 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AD244292ED6520009F194 /* HealthManager.swift */; };
+		B21DB5D3297FC7A700C0F86C /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21DB5D2297FC7A700C0F86C /* IntroView.swift */; };
+		B21DB5D5297FC7CC00C0F86C /* IntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21DB5D4297FC7CC00C0F86C /* IntroController.swift */; };
+		B21DB5D8297FC81D00C0F86C /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21DB5D7297FC81D00C0F86C /* InstructionView.swift */; };
+		B21DB5DA297FC82C00C0F86C /* InstructionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21DB5D9297FC82C00C0F86C /* InstructionController.swift */; };
+		B22B0E1E294AFD4C001D3170 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B0E1D294AFD4C001D3170 /* SceneDelegate.swift */; };
+		B2CB27A929284CA50066B88C /* hitManWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB27A829284CA50066B88C /* hitManWatchApp.swift */; };
+		B2CB27AB29284CA50066B88C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB27AA29284CA50066B88C /* SettingsView.swift */; };
+		B2CB27BA29284CA70066B88C /* hitManWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB27B929284CA70066B88C /* hitManWatch_Watch_AppTests.swift */; };
+		B2CB27C429284CA80066B88C /* hitManWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB27C329284CA80066B88C /* hitManWatch_Watch_AppUITests.swift */; };
+		B2CB27C629284CA80066B88C /* hitManWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB27C529284CA80066B88C /* hitManWatch_Watch_AppUITestsLaunchTests.swift */; };
+		B2D7A83E29281CFF00EB8306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A83D29281CFF00EB8306 /* AppDelegate.swift */; };
+		B2D7A84729281D0000EB8306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D7A84629281D0000EB8306 /* Assets.xcassets */; };
+		B2D7A84A29281D0000EB8306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D7A84829281D0000EB8306 /* Main.storyboard */; };
+		B2D7A85529281D0000EB8306 /* hiitManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A85429281D0000EB8306 /* hiitManTests.swift */; };
+		B2D7A85F29281D0100EB8306 /* hiitManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A85E29281D0100EB8306 /* hiitManUITests.swift */; };
+		B2D7A86129281D0100EB8306 /* hiitManUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A86029281D0100EB8306 /* hiitManUITestsLaunchTests.swift */; };
+		B2D876082928BF0400583054 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D876072928BF0400583054 /* SessionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2CB27B629284CA70066B88C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D7A83229281CFF00EB8306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2CB27A529284CA50066B88C;
+			remoteInfo = "hitManWatch Watch App";
+		};
+		B2CB27C029284CA80066B88C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D7A83229281CFF00EB8306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2CB27A529284CA50066B88C;
+			remoteInfo = "hitManWatch Watch App";
+		};
+		B2D7A85129281D0000EB8306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D7A83229281CFF00EB8306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D7A83929281CFF00EB8306;
+			remoteInfo = hiitMan;
+		};
+		B2D7A85B29281D0100EB8306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D7A83229281CFF00EB8306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D7A83929281CFF00EB8306;
+			remoteInfo = hiitMan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20A139A29811B0B0043B0D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B21AD244292ED6520009F194 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		B21DB5D2297FC7A700C0F86C /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		B21DB5D4297FC7CC00C0F86C /* IntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroController.swift; sourceTree = "<group>"; };
+		B21DB5D7297FC81D00C0F86C /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
+		B21DB5D9297FC82C00C0F86C /* InstructionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionController.swift; sourceTree = "<group>"; };
+		B22B0E1D294AFD4C001D3170 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B246B2B62928514A007CBA73 /* hitManWatch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "hitManWatch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B254A1C4292824EB009A7BBA /* hiitManRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hiitManRelease.entitlements; sourceTree = "<group>"; };
+		B2CB2793292843EF0066B88C /* hiitMan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hiitMan.entitlements; sourceTree = "<group>"; };
+		B2CB27A629284CA50066B88C /* hitManWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hitManWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CB27A829284CA50066B88C /* hitManWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hitManWatchApp.swift; sourceTree = "<group>"; };
+		B2CB27AA29284CA50066B88C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B2CB27B529284CA70066B88C /* hitManWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hitManWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CB27B929284CA70066B88C /* hitManWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hitManWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		B2CB27BF29284CA70066B88C /* hitManWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hitManWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CB27C329284CA80066B88C /* hitManWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hitManWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		B2CB27C529284CA80066B88C /* hitManWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hitManWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2CB27D029284CCA0066B88C /* hitManWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "hitManWatch Watch App.entitlements"; sourceTree = "<group>"; };
+		B2D7A83A29281CFF00EB8306 /* hiitMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hiitMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D7A83D29281CFF00EB8306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2D7A84629281D0000EB8306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2D7A84929281D0000EB8306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2D7A84B29281D0000EB8306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D7A85029281D0000EB8306 /* hiitManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hiitManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D7A85429281D0000EB8306 /* hiitManTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiitManTests.swift; sourceTree = "<group>"; };
+		B2D7A85A29281D0100EB8306 /* hiitManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hiitManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D7A85E29281D0100EB8306 /* hiitManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiitManUITests.swift; sourceTree = "<group>"; };
+		B2D7A86029281D0100EB8306 /* hiitManUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiitManUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2D876072928BF0400583054 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2CB27A329284CA50066B88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CB27B229284CA70066B88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CB27BC29284CA70066B88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D7A83729281CFF00EB8306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D7A84D29281D0000EB8306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D7A85729281D0100EB8306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B21DB5CE297FC4FB00C0F86C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B2CB27AA29284CA50066B88C /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B21DB5CF297FC50C00C0F86C /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				B2D876072928BF0400583054 /* SessionView.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		B21DB5D0297FC51800C0F86C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B21AD244292ED6520009F194 /* HealthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B21DB5D1297FC78900C0F86C /* IntroScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B21DB5D2297FC7A700C0F86C /* IntroView.swift */,
+				B21DB5D4297FC7CC00C0F86C /* IntroController.swift */,
+			);
+			path = IntroScreen;
+			sourceTree = "<group>";
+		};
+		B21DB5D6297FC80000C0F86C /* InstructionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B21DB5D7297FC81D00C0F86C /* InstructionView.swift */,
+				B21DB5D9297FC82C00C0F86C /* InstructionController.swift */,
+			);
+			path = InstructionScreen;
+			sourceTree = "<group>";
+		};
+		B2CB27A729284CA50066B88C /* hitManWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B21DB5D0297FC51800C0F86C /* Managers */,
+				B21DB5CF297FC50C00C0F86C /* Session */,
+				B21DB5CE297FC4FB00C0F86C /* Settings */,
+				B246B2B62928514A007CBA73 /* hitManWatch-Watch-App-Info.plist */,
+				B2CB27D029284CCA0066B88C /* hitManWatch Watch App.entitlements */,
+				B2CB27A829284CA50066B88C /* hitManWatchApp.swift */,
+				B2CB27AE29284CA70066B88C /* Preview Content */,
+				B20A139A29811B0B0043B0D7 /* Assets.xcassets */,
+			);
+			path = "hitManWatch Watch App";
+			sourceTree = "<group>";
+		};
+		B2CB27AE29284CA70066B88C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2CB27B829284CA70066B88C /* hitManWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2CB27B929284CA70066B88C /* hitManWatch_Watch_AppTests.swift */,
+			);
+			path = "hitManWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		B2CB27C229284CA80066B88C /* hitManWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2CB27C329284CA80066B88C /* hitManWatch_Watch_AppUITests.swift */,
+				B2CB27C529284CA80066B88C /* hitManWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "hitManWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		B2D7A83129281CFF00EB8306 = {
+			isa = PBXGroup;
+			children = (
+				B2D7A83C29281CFF00EB8306 /* hiitMan */,
+				B2D7A85329281D0000EB8306 /* hiitManTests */,
+				B2D7A85D29281D0100EB8306 /* hiitManUITests */,
+				B2CB27A729284CA50066B88C /* hitManWatch Watch App */,
+				B2CB27B829284CA70066B88C /* hitManWatch Watch AppTests */,
+				B2CB27C229284CA80066B88C /* hitManWatch Watch AppUITests */,
+				B2D7A83B29281CFF00EB8306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2D7A83B29281CFF00EB8306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2D7A83A29281CFF00EB8306 /* hiitMan.app */,
+				B2D7A85029281D0000EB8306 /* hiitManTests.xctest */,
+				B2D7A85A29281D0100EB8306 /* hiitManUITests.xctest */,
+				B2CB27A629284CA50066B88C /* hitManWatch Watch App.app */,
+				B2CB27B529284CA70066B88C /* hitManWatch Watch AppTests.xctest */,
+				B2CB27BF29284CA70066B88C /* hitManWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2D7A83C29281CFF00EB8306 /* hiitMan */ = {
+			isa = PBXGroup;
+			children = (
+				B21DB5D6297FC80000C0F86C /* InstructionScreen */,
+				B21DB5D1297FC78900C0F86C /* IntroScreen */,
+				B22B0E1D294AFD4C001D3170 /* SceneDelegate.swift */,
+				B2CB2793292843EF0066B88C /* hiitMan.entitlements */,
+				B254A1C4292824EB009A7BBA /* hiitManRelease.entitlements */,
+				B2D7A83D29281CFF00EB8306 /* AppDelegate.swift */,
+				B2D7A84629281D0000EB8306 /* Assets.xcassets */,
+				B2D7A84829281D0000EB8306 /* Main.storyboard */,
+				B2D7A84B29281D0000EB8306 /* Info.plist */,
+			);
+			path = hiitMan;
+			sourceTree = "<group>";
+		};
+		B2D7A85329281D0000EB8306 /* hiitManTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2D7A85429281D0000EB8306 /* hiitManTests.swift */,
+			);
+			path = hiitManTests;
+			sourceTree = "<group>";
+		};
+		B2D7A85D29281D0100EB8306 /* hiitManUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2D7A85E29281D0100EB8306 /* hiitManUITests.swift */,
+				B2D7A86029281D0100EB8306 /* hiitManUITestsLaunchTests.swift */,
+			);
+			path = hiitManUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2CB27A529284CA50066B88C /* hitManWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CB27C729284CA80066B88C /* Build configuration list for PBXNativeTarget "hitManWatch Watch App" */;
+			buildPhases = (
+				B2CB27A229284CA50066B88C /* Sources */,
+				B2CB27A329284CA50066B88C /* Frameworks */,
+				B2CB27A429284CA50066B88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hitManWatch Watch App";
+			productName = "hitManWatch Watch App";
+			productReference = B2CB27A629284CA50066B88C /* hitManWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2CB27B429284CA70066B88C /* hitManWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CB27CA29284CA80066B88C /* Build configuration list for PBXNativeTarget "hitManWatch Watch AppTests" */;
+			buildPhases = (
+				B2CB27B129284CA70066B88C /* Sources */,
+				B2CB27B229284CA70066B88C /* Frameworks */,
+				B2CB27B329284CA70066B88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CB27B729284CA70066B88C /* PBXTargetDependency */,
+			);
+			name = "hitManWatch Watch AppTests";
+			productName = "hitManWatch Watch AppTests";
+			productReference = B2CB27B529284CA70066B88C /* hitManWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2CB27BE29284CA70066B88C /* hitManWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CB27CD29284CA80066B88C /* Build configuration list for PBXNativeTarget "hitManWatch Watch AppUITests" */;
+			buildPhases = (
+				B2CB27BB29284CA70066B88C /* Sources */,
+				B2CB27BC29284CA70066B88C /* Frameworks */,
+				B2CB27BD29284CA70066B88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CB27C129284CA80066B88C /* PBXTargetDependency */,
+			);
+			name = "hitManWatch Watch AppUITests";
+			productName = "hitManWatch Watch AppUITests";
+			productReference = B2CB27BF29284CA70066B88C /* hitManWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B2D7A83929281CFF00EB8306 /* hiitMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D7A86429281D0100EB8306 /* Build configuration list for PBXNativeTarget "hiitMan" */;
+			buildPhases = (
+				B2D7A83629281CFF00EB8306 /* Sources */,
+				B2D7A83729281CFF00EB8306 /* Frameworks */,
+				B2D7A83829281CFF00EB8306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hiitMan;
+			productName = hiitMan;
+			productReference = B2D7A83A29281CFF00EB8306 /* hiitMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2D7A84F29281D0000EB8306 /* hiitManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D7A86729281D0100EB8306 /* Build configuration list for PBXNativeTarget "hiitManTests" */;
+			buildPhases = (
+				B2D7A84C29281D0000EB8306 /* Sources */,
+				B2D7A84D29281D0000EB8306 /* Frameworks */,
+				B2D7A84E29281D0000EB8306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2D7A85229281D0000EB8306 /* PBXTargetDependency */,
+			);
+			name = hiitManTests;
+			productName = hiitManTests;
+			productReference = B2D7A85029281D0000EB8306 /* hiitManTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2D7A85929281D0100EB8306 /* hiitManUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D7A86A29281D0100EB8306 /* Build configuration list for PBXNativeTarget "hiitManUITests" */;
+			buildPhases = (
+				B2D7A85629281D0100EB8306 /* Sources */,
+				B2D7A85729281D0100EB8306 /* Frameworks */,
+				B2D7A85829281D0100EB8306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2D7A85C29281D0100EB8306 /* PBXTargetDependency */,
+			);
+			name = hiitManUITests;
+			productName = hiitManUITests;
+			productReference = B2D7A85A29281D0100EB8306 /* hiitManUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2D7A83229281CFF00EB8306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B2CB27A529284CA50066B88C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B2CB27B429284CA70066B88C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B2CB27A529284CA50066B88C;
+					};
+					B2CB27BE29284CA70066B88C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B2CB27A529284CA50066B88C;
+					};
+					B2D7A83929281CFF00EB8306 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					B2D7A84F29281D0000EB8306 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = B2D7A83929281CFF00EB8306;
+					};
+					B2D7A85929281D0100EB8306 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = B2D7A83929281CFF00EB8306;
+					};
+				};
+			};
+			buildConfigurationList = B2D7A83529281CFF00EB8306 /* Build configuration list for PBXProject "hiitMan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2D7A83129281CFF00EB8306;
+			productRefGroup = B2D7A83B29281CFF00EB8306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2D7A83929281CFF00EB8306 /* hiitMan */,
+				B2D7A84F29281D0000EB8306 /* hiitManTests */,
+				B2D7A85929281D0100EB8306 /* hiitManUITests */,
+				B2CB27A529284CA50066B88C /* hitManWatch Watch App */,
+				B2CB27B429284CA70066B88C /* hitManWatch Watch AppTests */,
+				B2CB27BE29284CA70066B88C /* hitManWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2CB27A429284CA50066B88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20A139B29811B0B0043B0D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CB27B329284CA70066B88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CB27BD29284CA70066B88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D7A83829281CFF00EB8306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D7A84A29281D0000EB8306 /* Main.storyboard in Resources */,
+				B2D7A84729281D0000EB8306 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D7A84E29281D0000EB8306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D7A85829281D0100EB8306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2CB27A229284CA50066B88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CB27AB29284CA50066B88C /* SettingsView.swift in Sources */,
+				B2D876082928BF0400583054 /* SessionView.swift in Sources */,
+				B2CB27A929284CA50066B88C /* hitManWatchApp.swift in Sources */,
+				B21AD245292ED6520009F194 /* HealthManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CB27B129284CA70066B88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CB27BA29284CA70066B88C /* hitManWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CB27BB29284CA70066B88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CB27C429284CA80066B88C /* hitManWatch_Watch_AppUITests.swift in Sources */,
+				B2CB27C629284CA80066B88C /* hitManWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D7A83629281CFF00EB8306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21DB5D5297FC7CC00C0F86C /* IntroController.swift in Sources */,
+				B21DB5D3297FC7A700C0F86C /* IntroView.swift in Sources */,
+				B2D7A83E29281CFF00EB8306 /* AppDelegate.swift in Sources */,
+				B22B0E1E294AFD4C001D3170 /* SceneDelegate.swift in Sources */,
+				B21DB5DA297FC82C00C0F86C /* InstructionController.swift in Sources */,
+				B21DB5D8297FC81D00C0F86C /* InstructionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D7A84C29281D0000EB8306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D7A85529281D0000EB8306 /* hiitManTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D7A85629281D0100EB8306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D7A85F29281D0100EB8306 /* hiitManUITests.swift in Sources */,
+				B2D7A86129281D0100EB8306 /* hiitManUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2CB27B729284CA70066B88C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2CB27A529284CA50066B88C /* hitManWatch Watch App */;
+			targetProxy = B2CB27B629284CA70066B88C /* PBXContainerItemProxy */;
+		};
+		B2CB27C129284CA80066B88C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2CB27A529284CA50066B88C /* hitManWatch Watch App */;
+			targetProxy = B2CB27C029284CA80066B88C /* PBXContainerItemProxy */;
+		};
+		B2D7A85229281D0000EB8306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2D7A83929281CFF00EB8306 /* hiitMan */;
+			targetProxy = B2D7A85129281D0000EB8306 /* PBXContainerItemProxy */;
+		};
+		B2D7A85C29281D0100EB8306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2D7A83929281CFF00EB8306 /* hiitMan */;
+			targetProxy = B2D7A85B29281D0100EB8306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2D7A84829281D0000EB8306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2D7A84929281D0000EB8306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2CB27C829284CA80066B88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "hitManWatch Watch App/hitManWatch Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hitManWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hitManWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = hitManWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to health info";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs access to health info";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mattNafarrete.hiitMan;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattNafarrete.hiitMan.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		B2CB27C929284CA80066B88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "hitManWatch Watch App/hitManWatch Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hitManWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hitManWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = hitManWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to health info";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs access to health info";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mattNafarrete.hiitMan;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattNafarrete.hiitMan.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		B2CB27CB29284CA80066B88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattNafarrete.hitManWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hitManWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hitManWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		B2CB27CC29284CA80066B88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattNafarrete.hitManWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hitManWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hitManWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		B2CB27CE29284CA80066B88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattNafarrete.hitManWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "hitManWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		B2CB27CF29284CA80066B88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattNafarrete.hitManWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "hitManWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		B2D7A86229281D0100EB8306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2D7A86329281D0100EB8306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2D7A86529281D0100EB8306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				ASSETCATALOG_OTHER_FLAGS = "";
+				CODE_SIGN_ENTITLEMENTS = hiitMan/hiitMan.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hiitMan/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to health info";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs access to health info";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattNafarrete.hiitMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2D7A86629281D0100EB8306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				ASSETCATALOG_OTHER_FLAGS = "";
+				CODE_SIGN_ENTITLEMENTS = hiitMan/hiitManRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hiitMan/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to health info";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs access to health info";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattNafarrete.hiitMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2D7A86829281D0100EB8306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattNafarrete.hiitManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hiitMan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hiitMan";
+			};
+			name = Debug;
+		};
+		B2D7A86929281D0100EB8306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattNafarrete.hiitManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hiitMan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hiitMan";
+			};
+			name = Release;
+		};
+		B2D7A86B29281D0100EB8306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattNafarrete.hiitManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hiitMan;
+			};
+			name = Debug;
+		};
+		B2D7A86C29281D0100EB8306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZ28KN5Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattNafarrete.hiitManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hiitMan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2CB27C729284CA80066B88C /* Build configuration list for PBXNativeTarget "hitManWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CB27C829284CA80066B88C /* Debug */,
+				B2CB27C929284CA80066B88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CB27CA29284CA80066B88C /* Build configuration list for PBXNativeTarget "hitManWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CB27CB29284CA80066B88C /* Debug */,
+				B2CB27CC29284CA80066B88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CB27CD29284CA80066B88C /* Build configuration list for PBXNativeTarget "hitManWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CB27CE29284CA80066B88C /* Debug */,
+				B2CB27CF29284CA80066B88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D7A83529281CFF00EB8306 /* Build configuration list for PBXProject "hiitMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D7A86229281D0100EB8306 /* Debug */,
+				B2D7A86329281D0100EB8306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D7A86429281D0100EB8306 /* Build configuration list for PBXNativeTarget "hiitMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D7A86529281D0100EB8306 /* Debug */,
+				B2D7A86629281D0100EB8306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D7A86729281D0100EB8306 /* Build configuration list for PBXNativeTarget "hiitManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D7A86829281D0100EB8306 /* Debug */,
+				B2D7A86929281D0100EB8306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D7A86A29281D0100EB8306 /* Build configuration list for PBXNativeTarget "hiitManUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D7A86B29281D0100EB8306 /* Debug */,
+				B2D7A86C29281D0100EB8306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2D7A83229281CFF00EB8306 /* Project object */;
+}
